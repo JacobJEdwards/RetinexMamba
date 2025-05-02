@@ -1,4 +1,4 @@
-# RetinexMamba
+# RetinexMamba（ICONIP 2024）
 
 This is the official code for "RetinexMamba: Retinex-based Mamba for Low-light Image Enhancement." For the paper, please see {[Arxiv](https://arxiv.org/abs/2405.03349)}
 
