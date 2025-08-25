@@ -1,0 +1,45 @@
+# PyTorch (for CUDA 12.1)
+torch
+torchvision
+torchaudio
+
+# Core Dependencies from README
+packaging
+timm
+pytest
+chardet
+yacs
+termcolor
+submitit
+tensorboardX
+triton
+
+# Mamba and related packages (requires manual installation)
+# causal_conv1d==1.1.1
+# mamba_ssm==1.2.0
+
+# Other utilities
+scikit-learn
+matplotlib
+thop
+h5py
+SimpleITK
+scikit-image
+medpy
+opencv-python
+joblib
+natsort
+tqdm
+tensorboard
+einops
+gdown
+addict
+future
+lmdb
+numpy
+pyyaml
+requests
+scipy
+yapf
+lpips
+fvcore
