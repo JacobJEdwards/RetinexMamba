@@ -52,7 +52,8 @@ find "$MAIN_DIR" -mindepth 1 -maxdepth 1 -type d | while read -r SUB_DIR; do
 
     if [ -d "$INPUT_FOLDER" ]; then
       echo "Processing folder: $INPUT_FOLDER"
-      python "$PYTHON_SCRIPT" --opt "$CONFIG" --weights "$WEIGHTS" --input_folder "$INPUT_FOLDER" --output_folder "$OUTPUT_FOLDER"
+      uv run "$PYTHON_SCRIPT" --opt "$CONFIG" --weights "$WEIGHTS" --input_folder "$INPUT_FOLDER" --output_folder
+      "$OUTPUT_FOLDER"
     else
       echo "Skipping... Folder not found: $INPUT_FOLDER"
     fi
