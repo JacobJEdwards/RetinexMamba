@@ -7,7 +7,7 @@
 # Set the model you want to use here.
 # Make sure the WEIGHTS and CONFIG files match.
 WEIGHTS="pretrained_weights/LOL_v1.pth"
-CONFIG="Options/RetinexFormer_LOL_v1.yml"
+CONFIG="Options/RetinexMamba_LOL_v1.yml"
 # ---------------------
 
 
